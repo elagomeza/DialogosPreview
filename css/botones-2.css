@@ -1,0 +1,110 @@
+/*------------------------------------------------------------------
+Timber Framework
+Version: 1.9.7;
+Author: ThemeMountain
+Copyright: ThemeMountain
+License: MIT
+
+[Table of contents]
+
+1. Common
+2. Timber Grid
+3. Helper Classes
+4. Prototype Classes
+5. Main Navigation
+6. Side Navigation
+7. Overlay Navigation
+8. Images
+9. Content Grids
+10. Feature Columns
+11. Form Elements
+12. Buttons
+13. Dropdowns
+14. Lists
+15. Menu Lists
+16. Timeline
+17. Tabs
+18. Accordion
+19. Tables
+20. Pricing Tables
+21. Boxes
+22. Labels
+23. Charts
+24. Range Slider
+25. Video & Audio
+26. Dividers
+27. Typography
+28. Blockquotes
+29. Breadcrumb
+30. Code & Pre
+31. Font Icons
+32. Color & Shadow Classes
+33. Animation
+34. Media Queries
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[12. Buttons]
+*/
+.buutton-group{
+	margin-bottom: 3rem;
+}
+buutton, 
+.buutton{
+	padding: 1.3rem 2.5rem;
+	margin: 0 1rem 1rem 0;
+	font-family: inherit;
+    font-size: 1.3rem;
+    color: #00f9c1 ;
+	background-color: #4d008c ;
+	border: 1px solid #4d008c ;
+    font-weight: normal;
+    vertical-align: middle;
+	display: inline-block;
+	cursor: pointer;
+	-webkit-appearance: none;
+	   -moz-appearance:	none;
+			appearance:	none;
+}
+.left-on-mobile buutton,
+.left-on-mobile .buutton{
+	margin-right: 1rem;
+	margin-left: 0;
+}
+.center buutton,
+.center .buutton,
+.center-on-mobile buutton,
+.center-on-mobile .buutton{
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+}
+.right buutton + buutton,
+.right .buutton + .buutton,
+.right-on-mobile button + button,
+.right-on-mobile .button + .button{
+	margin-right: 0;
+	margin-left: 1rem;
+}
+form buutton, 
+form .buutton{
+	margin-right: 0 !important;
+	margin-left: 0 !important;
+}
+buutton:focus, 
+.buutton:focus{
+	outline: none;
+}
+buutton:hover, 
+.buutton:hover{
+	text-decoration: none;
+	color: #26fcb1 ;
+	background-color: #4d008c ;
+	border-color: #4d008c ;
+}
+/* Sizes */
+
+buutton.medium., 
+.buutton.medium{
+	padding: 1.3rem 2.5rem;
+	font-size: 1.3rem !important;
+}
+
